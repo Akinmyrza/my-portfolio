@@ -1,6 +1,11 @@
 /* External dependencies */
 import React from 'react';
+import Header from './components/header';
 
 export default function App() {
-  return <div>Hello </div>;
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 }
